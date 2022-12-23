@@ -1,0 +1,1 @@
+alert ("Hello, World! This is an alert message made with JavaScript for HTML");
