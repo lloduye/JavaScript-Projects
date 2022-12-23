@@ -1,2 +1,2 @@
 # JavaScript-Projects
-Repository for all my JavaScript course assignments and projects.
+This is a repository for all my JavaScript Course assignments and projects.
