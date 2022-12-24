@@ -51,5 +51,5 @@ function decrementOPFunction() { //Defining the function and assigning it a name
 //RANDOM NUMBER
 function randomFunction() {
     var rand= window.alert(Math.random() *500);
-    document.getElementById("random").innerHTML="Your randomly generated number between 0 - 500 is " + rand
+    document.getElementById("random").innerHTML="Your randomly generated number between 0 - 500 is "
 }
