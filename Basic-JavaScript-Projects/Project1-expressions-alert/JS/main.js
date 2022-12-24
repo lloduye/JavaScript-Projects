@@ -14,11 +14,6 @@ var Sent2=" and this is the end of the string" //Defining a variable and assigni
 //Expression example
 10 + 24
 
-
-
-
-
-
 //Assigning a string varable and printing it out
 var A="This is a string";
 document.write (A);
@@ -42,7 +37,7 @@ document.write(3+3);
 function My_First_Function() { //Defining a function and naming it
     var str="This is the button text!" //Defining a variable and assigning it a string value
 
-document.getElementById("Button_text").innerHTML=str; //Putting the value of the 
+document.getElementById("Button_Text").innerHTML=str; //Putting the value of the 
                                                     //variable into the HTML ElementFromPoint
                                                     //with the button
 }
