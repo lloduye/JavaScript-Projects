@@ -1,35 +1,35 @@
 //ADDITION
 function addFunction() { //Defining the function and assigning it a name
-    var addition= 12 + 24; //Defining a variable and assigning it parameters
+    var addition= 12 + 24; //Defining a variable and assigning it value
     document.getElementById("add").innerHTML= "12 + 24 = " + addition;
 }
 
 //SUBTRACTION
 function subtractFunction() { //Defining the function and assigning it a name
-    var subtraction= 45 - 10; //Defining a variable and assigning it parameters
+    var subtraction= 45 - 10; //Defining a variable and assigning it value
     document.getElementById("subtract").innerHTML= "45 - 10 = " + subtraction;
 }
 
 //MULTIPLICATION
 function multiplyFunction() { //Defining the function and assigning it a name
-    var multiplication= 105 * 35; //Defining a variable and assigning it parameters
+    var multiplication= 105 * 35; //Defining a variable and assigning it value
     document.getElementById("multiply").innerHTML= "105 x 35 = " + multiplication;
 }
 
 //DIVISION
 function divideFunction() { //Defining the function and assigning it a name
-    var subtraction= 144 / 12; //Defining a variable and assigning it parameters
+    var subtraction= 144 / 12; //Defining a variable and assigning it value
     document.getElementById("divide").innerHTML= "144 / 12 = " + subtraction;
 }
 
 //MULTIPLE OPERATIONS
 function multipleOPFunction() { //Defining the function and assigning it a name
-    var multipleOP= (20 + 30) * 100 / 50 - 25; //Defining a variable and assigning it parameters
+    var multipleOP= (20 + 30) * 100 / 50 - 25; //Defining a variable and assigning it values
     document.getElementById("multiple").innerHTML= "(20 + 30) x 100 / 50 - 25 = " + multipleOP;
 }
 
 //MODULUS OPERATOR
-function modulusOPFunction() { //Defining the function and assigning it a name
-    var modulusOP= 80 % 7; //Defining a variable and assigning it parameters
-    document.getElementById("modulus").innerHTML= "When you divide 80 by 7 you have a remainder of " + modulusOP;
+function negationOPFunction() { //Defining the function and assigning it a name
+    var x=12; //Defining a variable and assigning it a value
+    document.getElementById("negation").innerHTML= "Variabe x = 12 with the negation operator \"-\" is " + -x;
 }
