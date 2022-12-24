@@ -39,7 +39,7 @@ document.write(Daughter)
 //Statement
 document.write(3+3);
 
-function My_First_function() { //Defining a function and naming it
+function My_First_Function() { //Defining a function and naming it
     var str="This is the button text!" //Defining a variable and assigning it a string value
 
 document.getElementById("Button_text").innerHTML=str; //Putting the value of the 
