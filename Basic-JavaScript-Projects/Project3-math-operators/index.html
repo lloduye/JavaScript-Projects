@@ -6,7 +6,7 @@
     <title>Project 3: Math Operators</title>
     <script src="JS/main.js"></script>
     <style>
-       #add, #subtract, #multiply, #divide, #multiple { /* Style the math class and change the cursor to pointer*/
+       #add, #subtract, #multiply, #divide, #multiple, #modulus { /* Style the math class and change the cursor to pointer*/
         cursor: pointer;
        }
     </style>
@@ -36,6 +36,11 @@
     <nav> <!--Multiple Operations-->
         <p>Multiple Operations</p> <!--Paragraph element-->
         <p id="multiple" onclick="multipleOPFunction()">(20 + 30) x 100 / 50 - 25 = ?</p>  <!--target the id for js function-->
+    </nav>
+
+    <nav> <!--Modulus Operator-->
+        <p>Modulus Operator</p> <!--Paragraph element-->
+        <p id="modulus" onclick="modulusOPFunction()">80 % 5 = ?</p>  <!--target the id for js function-->
     </nav>
    
 </body>

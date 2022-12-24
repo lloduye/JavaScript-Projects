@@ -27,3 +27,9 @@ function multipleOPFunction() { //Defining the function and assigning it a name
     var multipleOP= (20 + 30) * 100 / 50 - 25; //Defining a variable and assigning it parameters
     document.getElementById("multiple").innerHTML= "(20 + 30) x 100 / 50 - 25 = " + multipleOP;
 }
+
+//MODULUS OPERATOR
+function modulusOPFunction() { //Defining the function and assigning it a name
+    var modulusOP= 80 % 7; //Defining a variable and assigning it parameters
+    document.getElementById("modulus").innerHTML= "When you divide 80 by 7 you have a remainder of " + modulusOP;
+}
