@@ -7,7 +7,7 @@
     <script src="JS/main.js"></script>
     <style>
        #add, #subtract, #multiply, #divide, #multiple, #modulus, 
-       #negation, #increment, #decrement { /* Style the math class and change the cursor to pointer*/
+       #negation, #increment, #decrement, #random { /* Style the math class and change the cursor to pointer*/
         cursor: pointer;
        }
 
@@ -64,7 +64,13 @@
         <p class="bold">Increment and Decrement Operator</p> <!--Paragraph element-->
         <p id="increment" onclick="incrementOPFunction()">Click here to see what an INCREMENT will do to the value 5</p>  <!--target the id for js function-->
         <p id="decrement" onclick="decrementOPFunction()">Click here to see what an DECREMENT will do to the value 10</p>  <!--target the id for js function-->
+        <br>
     </nav>
 
+    <nav> <!--Generating Random Numbers-->
+        <p class="bold">Generating Random Numbers</p> <!--Paragraph element-->
+        <p id="random" onclick="randomFunction()">Click here to generate a random number between 0 and 500</p>  <!--target the id for js function-->
+        <br>
+    </nav>
 </body>
 </html>
