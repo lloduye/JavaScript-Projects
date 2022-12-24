@@ -7,7 +7,7 @@
     <script src="JS/main.js"></script>
     <style>
        #add, #subtract, #multiply, #divide, #multiple, #modulus, 
-       #negation, #increment, #decrement, #random { /* Style the math class and change the cursor to pointer*/
+       #negation, #increment, #decrement, #random, #demo { /* Style the math class and change the cursor to pointer*/
         cursor: pointer;
        }
 
@@ -71,6 +71,12 @@
         <p class="bold">Generating Random Numbers</p> <!--Paragraph element-->
         <p id="random" onclick="randomFunction()">Click here to generate a random number between 0 and 500</p>  <!--target the id for js function-->
         <br>
+    </nav>
+
+    <nav> <!--Math Objects and Methods-->
+        <p class="bold">Math Objects and Methods</p> <!--Paragraph element-->
+        <p>Using Math.round(x) to round of the 39.6 to the nearest integar:</p>
+        <p id="demo" onclick="mathOBFunction()">Click here to find the answer</p>
     </nav>
 </body>
 </html>

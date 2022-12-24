@@ -53,3 +53,8 @@ function randomFunction() {
     var rand= window.alert(Math.random() *500);
     document.getElementById("random").innerHTML="Your randomly generated number between 0 - 500 is "
 }
+
+//MATH OBJECT AND METHOD
+function mathOBFunction(){
+    document.getElementById("demo").innerHTML=Math.round(39.6);
+}
