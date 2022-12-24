@@ -6,46 +6,64 @@
     <title>Project 3: Math Operators</title>
     <script src="JS/main.js"></script>
     <style>
-       #add, #subtract, #multiply, #divide, #multiple, #modulus, #negation { /* Style the math class and change the cursor to pointer*/
+       #add, #subtract, #multiply, #divide, #multiple, #modulus, 
+       #negation, #increment, #decrement { /* Style the math class and change the cursor to pointer*/
         cursor: pointer;
+       }
+
+       .bold {
+        font-weight: bold;
        }
     </style>
 </head>
 <body>
     <nav> <!--Addition-->
         <h1>Math Operations Assignments</h1> <!--h1 element-->
-        <h>Addition</p> <!--Paragraph element-->
+        <p class="bold">Addition</p> <!--Paragraph element-->
         <p id="add" onclick="addFunction()">12 + 24 = ?</p>  <!--target the id for js function-->
-    </nav>
         <br>
+    </nav>
+   
     <nav> <!--Subtraction-->
-        <p>Subtraction</p> <!--Paragraph element-->
+        <p class="bold">Subtraction</p> <!--Paragraph element-->
         <p id="subtract" onclick="subtractFunction()">45 - 10 = ?</p>  <!--target the id for js function-->
+        <br>
     </nav>
-    <br>
+
     <nav> <!--Multiplication-->
-        <p>Multiplication</p> <!--Paragraph element-->
+        <p class="bold">Multiplication</p> <!--Paragraph element-->
         <p id="multiply" onclick="multiplyFunction()">105 x 35 = ?</p>  <!--target the id for js function-->
+        <br>
     </nav>
-    <br>
+
     <nav> <!--Division-->
-        <p>Division</p> <!--Paragraph element-->
+        <p class="bold">Division</p> <!--Paragraph element-->
         <p id="divide" onclick="divideFunction()">144 / 12 = ?</p>  <!--target the id for js function-->
+        <br>
     </nav>
-    <br>
+
     <nav> <!--Multiple Operations-->
-        <p>Multiple Operations</p> <!--Paragraph element-->
+        <p class="bold">Multiple Operations</p> <!--Paragraph element-->
         <p id="multiple" onclick="multipleOPFunction()">(20 + 30) x 100 / 50 - 25 = ?</p>  <!--target the id for js function-->
+        <br>
     </nav>
-    <br>
+
     <nav> <!--Modulus Operator-->
-        <p>Modulus Operator</p> <!--Paragraph element-->
+        <p class="bold">Modulus Operator</p> <!--Paragraph element-->
         <p id="modulus" onclick="modulusOPFunction()">80 % 5 = ?</p>  <!--target the id for js function-->
+        <br>
     </nav>
-    <br>
+    
     <nav> <!--Negation(negative) Operator-->
-        <p>Negation Operator</p> <!--Paragraph element-->
+        <p class="bold">Negation Operator</p> <!--Paragraph element-->
         <p id="negation" onclick="negationOPFunction()">Variabe x = 12 click here to see it with the negation operator</p>  <!--target the id for js function-->
+        <br>
+    </nav>
+
+    <nav> <!--Increment and Decrement Operator-->
+        <p class="bold">Increment and Decrement Operator</p> <!--Paragraph element-->
+        <p id="increment" onclick="incrementOPFunction()">Click here to see what an INCREMENT will do to the value 5</p>  <!--target the id for js function-->
+        <p id="decrement" onclick="decrementOPFunction()">Click here to see what an DECREMENT will do to the value 10</p>  <!--target the id for js function-->
     </nav>
 
 </body>
