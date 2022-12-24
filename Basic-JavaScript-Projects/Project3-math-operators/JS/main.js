@@ -33,3 +33,17 @@ function negationOPFunction() { //Defining the function and assigning it a name
     var x=12; //Defining a variable and assigning it a value
     document.getElementById("negation").innerHTML= "Variabe x = 12 with the negation operator \"-\" is " + -x;
 }
+
+//INCREMENT OPERATOR
+function incrementOPFunction() { //Defining the function and assigning it a name
+    var x=5; //Defining a variable and assigning it a value
+    x++; //defining an increment
+    document.getElementById("increment").innerHTML= "An increment operator will change the value of variable x from 5 to " + x++;
+}
+
+//DECREMENT OPERATOR
+function decrementOPFunction() { //Defining the function and assigning it a name
+    var x=10; //Defining a variable and assigning it a value
+    x--; //defining an increment
+    document.getElementById("decrement").innerHTML= "A decrement operator will change the value of variable x from 10 to " + x--;
+}
