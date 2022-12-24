@@ -6,7 +6,7 @@
     <title>Project 3: Math Operators</title>
     <script src="JS/main.js"></script>
     <style>
-       #math, #subtract { /* Style the math class and change the cursor to pointer*/
+       #add, #subtract, #multiply, #divide { /* Style the math class and change the cursor to pointer*/
         cursor: pointer;
        }
     </style>
@@ -14,13 +14,23 @@
 <body>
     <nav> <!--Addition-->
         <h1>Math Operations Assignments</h1> <!--h1 element-->
-        <p>Addition example</p> <!--Paragraph element-->
-        <p id="math" onclick="addFunction()">12 + 24 = ?</p>  <!--target the id for js function-->
+        <p>Addition</p> <!--Paragraph element-->
+        <p id="add" onclick="addFunction()">12 + 24 = ?</p>  <!--target the id for js function-->
     </nav>
 
-    <nav> <!--Subtractionn-->
-        <p>Subtraction example</p> <!--Paragraph element-->
+    <nav> <!--Subtraction-->
+        <p>Subtraction</p> <!--Paragraph element-->
         <p id="subtract" onclick="subtractFunction()">45 - 10 = ?</p>  <!--target the id for js function-->
+    </nav>
+
+    <nav> <!--Multiplication-->
+        <p>Multiplication</p> <!--Paragraph element-->
+        <p id="multiply" onclick="multiplyFunction()">105 x 35 = ?</p>  <!--target the id for js function-->
+    </nav>
+
+    <nav> <!--Division-->
+        <p>Division</p> <!--Paragraph element-->
+        <p id="divide" onclick="divideFunction()">144 / 12 = ?</p>  <!--target the id for js function-->
     </nav>
    
 </body>
