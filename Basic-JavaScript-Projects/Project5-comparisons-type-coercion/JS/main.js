@@ -41,8 +41,8 @@ function myFunction6() { //defining a fuctiona and assigning it a name
 
 
 //Console.log() Assignment start
-function mathFunction() {
-    var conslog =console.log(20+15)
+function mathFunction() { //defining a fuctiona and assigning it a name
+    var conslog =console.log(20+15) //defining a variable and assigning it a name
     document.getElementById("math").innerHTML= conslog
 }
 
@@ -59,3 +59,9 @@ document.write(A===B)
 X=33
 Y=33
 document.write(X===Y)
+
+
+//Not Operator Assignment
+function notOPFunction() { //defining a fuctiona and assigning it a name
+    document.getElementById("notOP").innerHTML= !(25>10) //defining a variable and assigning it a name
+}
