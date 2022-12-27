@@ -27,3 +27,9 @@ function myFunction4() { //defining a fuctiona and assigning it a name
     document.getElementById("boolean2").innerHTML= "22 is larger than 10 making this TRUE and 13 is larger than 12 which makes the second part TRUE and overally this is " + Boolean2
 }
 //Boolean Assignment end
+
+//Console.log() Assignment
+function mathFunction() {
+    var conslog = 20 + 15
+    document.getElementById("math").innerHTML= conslog
+}
