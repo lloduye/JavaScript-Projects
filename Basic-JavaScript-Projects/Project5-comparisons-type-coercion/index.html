@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <title>Type Of Operator Assignment</title>
     <script src="JS/main.js"></script>
+    <style>
+        #boolean1, #boolean2 { /*Changing cursor to pointer*/
+            cursor: pointer;
+        
+        }
+        .underline {
+            text-decoration: underline; /*Underlining text*/
+        }
+    </style>
 </head>
 <body>
-    <p> <strong>Infinity Assignment</strong> </p>
-    <p>This displays Infinity number <br> <button id="infinity" onclick="myFunction1()">Click here view</button></p>
-    <p>This displays a negative Infinity number <br> <button id="-infinity" onclick="myFunction2()">Click here view</button></p>
-    <p></p>
+    <!--Infinity Assignment start-->
+    <nav>    
+        <p> <strong>Infinity Assignment</strong> </p>
+        <p>This displays Infinity number <br> <button id="infinity" onclick="myFunction1()">Click here view</button></p>
+        <p>This displays a negative Infinity number <br> <button id="-infinity" onclick="myFunction2()">Click here view</button></p>
+    </nav>
+    <!--Infinity Assignment start-->
+
+    <!--Boolean Assignment start-->
+    <nav>
+        <br>
+        <p> <strong>Boolean Assignment</strong> </p>
+
+        <p class="underline">Boolean example 1 </p>
+            22 > 10 <strong>AND</strong> 13 < 12
+        <p>To find out whether this is true or false <br> <nav id="boolean1" onclick="myFunction3()"><strong>Click here</strong></nav> </p>
+        
+        <br>
+        <p class="underline">Boolean example 2 </p>
+            22 > 10 <strong>AND</strong> 13 > 12
+        <p>To find out whether this is true or false <br> <nav id="boolean2" onclick="myFunction4()"> <strong>Click here</strong> </nav> </p>
+    </nav>
+        <!--Boolean Assignment end-->
 </body>
 </html>
