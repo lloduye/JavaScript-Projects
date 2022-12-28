@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 7: Scope Time Function</title>
+    <script src="JS/main.js"></script>
+</head>
+<body>
+    <nav> <!--Global and Local function-->
+        <p style="text-decoration: underline;">Global Variable</p>
+        <p id="global" onclick="globalFunction()"><strong style="cursor: pointer;">Click here</strong></p>
+        
+        <p style="text-decoration: underline;">Local Variable</p>
+        <p id="local" onclick="localFunction()"><strong style="cursor: pointer;">Click here</strong></p>    
+    </nav>
+
+    <nav> <!--If Statement-->
+        <br>
+        <p>If Statements</p>
+        <p id="greeting" onclick="getdateFunction()"><strong style="cursor: pointer;">Click Here</strong></p>
+    </nav>
+    
+    <nav>
+        <br>
+        <p> <span style="text-decoration: underline;">Else Assignment</span>  <br> This program checks if the user is old 
+            enough to sign up for soccer league <br> <br> How old are you?</p>
+        <input id="userage" type="number" placeholder="Enter your Age" value="">
+        <button style="cursor: pointer;" onclick="ageFunction()">Submit</button>
+        <p id="results"></p>
+
+    </nav>
+
+    <nav> <!--Intentional error for Debugging-->
+        <br>
+        <p>Here I'm introducig an error into my code and debugging it using Chrome Dev tools <br>
+        This program <strong>ADDs</strong> numbers</p>
+
+        <input id="numb1" type="number" placeholder="Number 1"><br>
+        <input id="numb2" type="number" placeholder="Number 2"><br><br>
+        <button id="addnumbs" onclick="addnumbsFunction()" style="cursor: pointer;">ADD</button>
+        <h4>Results =<span id="results"></span> </h4>
+    </nav>
+
+    <nav> <!--Time_function()-->
+        <br>
+        <p style="text-decoration: underline;">Time Function</p>
+        <p id="timeofday"></p>
+        <button style="cursor: pointer;" onclick="timeFunction()">Click here to get the time</button>
+
+    </nav>
+</body>
+</html>
