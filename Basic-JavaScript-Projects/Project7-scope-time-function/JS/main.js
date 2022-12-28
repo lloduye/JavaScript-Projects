@@ -34,7 +34,7 @@ function addnumbsFunction() { //Defining a function and assigning it a name
     var numb1 =document.getElementById("numb1").value; //defining a variable and assigning it a name and a value
     var numb2 =document.getElementById("numb2").value; //defining a variable and assigning it a name and a value
     var results =Number(numb1) + Number(numb2)//Adding the two numbers from the HTML user input
-    document.getElementById("results").innerHTML=results //outputting the results of adding the two numbers user provided
+    document.getElementById("results2").innerHTML=results //outputting the results of adding the two numbers user provided
     console.log()
 }
 
