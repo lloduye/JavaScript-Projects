@@ -19,3 +19,21 @@ function for_loop() { //Defining a function and assigning it a name
     }
     document.getElementById("listofinsts").innerHTML=Content;
     }
+
+//Arrays and Objects
+function catpics() { //Defining a function and assigning it a name
+    var catpicture =[]; //defining a variable, assigning it a name and an array
+    catpicture[0]="sleeping";
+    catpicture[1]="playing";
+    catpicture[2]="eating";
+    catpicture[3]="purring";
+    document.getElementById("cat").innerHTML= "In this picture, the cat is " + catpicture[2] + "." 
+}
+
+//Let Keyword
+
+
+function letkeyword() {
+    let W =10;
+    document.getElementById("let").innerHTML=W
+}
