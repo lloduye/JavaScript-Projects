@@ -17,6 +17,20 @@
         <p>Canvas element</p>
         <canvas id="canvas1" height="250" width="500" style="background-color: teal;" > </canvas>
     </div>
+    <div>
+        <h1>Characters</h1>
+        <h3>Click on the universe to see a character</h3>
+        <ul>
+            <li onclick="displaytype(this)" id="DC" data-character-type="batman"">DC</li>
+        </ul>
+        <script>
+            function displaytype(character) {
+                var charactertype=character.getAttribute("data-character-type");
+                alert(charactertype +  " is in the ") = character.innerHTML + " universe";
+            }
+        </script>
+    </div>
+    
 <body>
     
 </body>
